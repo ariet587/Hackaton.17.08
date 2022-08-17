@@ -1,13 +1,173 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+.static bac {
+  color: #0f0e0e;
+}
+.main-page {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-pizza-food-background-material-image_141716.jpg);
+}
+.backr {
+  background-image: url(./img/cc.jpg);
+}
+.contact-block {
+  background: rgb(10, 10, 10);
+  color: black;
+}
+.contact-block {
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.css-19r6kue-MuiContainer-root {
+  width: 100%;
+  margin-left: auto;
+  background-color: rgb(15, 14, 14);
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.admin-add-page,
+.admin-edit-page {
+  padding-top: 50px;
+}
+.admin-add-page form,
+.admin-edit-page form {
+  display: flex;
+  flex-direction: column;
+}
+.admin-add-page button,
+.admin-edit-page button {
+  margin-top: 20px;
+}
+.navbar-link {
+  margin: 0 10px;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.main-page {
+  padding: 30px 0;
+  /* background: dimgray; */
+}
+
+.main-page h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-block {
+  font-size: 26px;
+  text-align: center;
+  color: #c43e00;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.contact-block input {
+  background: #fff;
+}
+.contact-block input ::placeholder {
+  color: black;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.product-card {
+  width: 30%;
+}
+.product-card img {
+  /* !чтобы картинка не теряла форму */
+  object-fit: contain;
+}
+.product-card-ul {
+  list-style-type: none;
+}
+.product-card-ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.product-card-ul span:nth-child(2) {
+  /* !обратились ко вторым спанам */
+  font-weight: 700;
+}
+.product-card-title {
+  text-align: center;
+}
+.filter-block {
+  width: 250px;
+  margin-bottom: 40px;
+}
+.filter-block h4 {
+  text-decoration: underline;
+}
+.main-page .bac {
+  background: rgb(207, 96, 4);
+}
+
+.filter-block {
+  color: rgb(10, 1, 19);
+}
+.slider {
+  color: rgb(219, 45, 83);
+}
+.orange {
+  color: orangered;
+}
+.basket-page h2 {
+  color: #c43e00;
+}
+.admin-page h2 {
+  color: #c43e00;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+.main-page {
+  background-color: rgb(245, 245, 245);
+}
+.navbar-link {
+  text-decoration: none;
+  color: #c43e00;
+}
+
+@media all and (max-width: 768px) {
+  .product-card {
+    width: 48%;
+  }
+}
+@media all and (max-width: 575px) {
+  .product-card {
+    width: 65%;
+  }
+  .products {
+    justify-content: center;
+  }
 }

@@ -1,0 +1,92 @@
+{
+  "pizza": [
+    {
+      "name": "Сырная",
+      "time": "20:34",
+      "year": "2022-08-17",
+      "price": 399,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_292x292.jpeg",
+      "id": 1
+    },
+    {
+      "name": "Пепперони",
+      "time": "22:36",
+      "year": "2022-08-17",
+      "price": 400,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/22eead365d6a451eb0e398a6bab07823_292x292.jpeg",
+      "id": 2
+    },
+    {
+      "name": "Маргарита",
+      "time": "21:39",
+      "year": "2022-08-17",
+      "price": 450,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_292x292.jpeg",
+      "id": 3
+    },
+    {
+      "name": "Песто",
+      "time": "21:39",
+      "year": "2022-08-17",
+      "price": 400,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/9cf62eab14b64d6a8ce0a9f5710f4f76_292x292.jpeg",
+      "id": 4
+    },
+    {
+      "name": "Карбонара",
+      "time": "22:41",
+      "year": "2022-08-17",
+      "price": 430,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/fae69c6fc9e848c6a4003a8011fd5259_292x292.jpeg",
+      "id": 5
+    },
+    {
+      "name": "Аррива",
+      "time": "00:44",
+      "year": "2022-08-18",
+      "price": 420,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "id": 6
+    },
+    {
+      "name": "Додо",
+      "time": "21:44",
+      "year": "2022-08-18",
+      "price": 500,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/ada478de4d6a466aa049f59b4656a781_292x292.jpeg",
+      "id": 7
+    },
+    {
+      "name": "Мексиканская",
+      "time": "23:47",
+      "year": "2022-08-18",
+      "price": 450,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_292x292.jpeg",
+      "id": 8
+    },
+    {
+      "name": "Мясная",
+      "time": "23:48",
+      "year": "2022-08-18",
+      "price": 300,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/ae37f56eb05c434c82fb06f2d8d13d3c_292x292.jpeg",
+      "id": 9
+    },
+    {
+      "name": "Азиятская",
+      "time": "00:50",
+      "year": "2022-08-18",
+      "price": 350,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/a5fbe87430b943b7833e632e94807355_292x292.jpeg",
+      "id": 10
+    },
+    {
+      "name": "Гавайская",
+      "time": "22:50",
+      "year": "2022-08-18",
+      "price": 550,
+      "photo": "https://cdn.dodostatic.net/static/Img/Products/7f300e9640544285ad377cd6ffcacc5e_292x292.jpeg",
+      "id": 11
+    }
+  ]
+}
